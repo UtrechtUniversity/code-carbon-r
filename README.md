@@ -1,5 +1,7 @@
 # Code Carbon in R workflows
 
+[![DOI](https://zenodo.org/badge/913954622.svg)](https://doi.org/10.5281/zenodo.14617644)
+
 This is a demonstration of the implementation of CodeCarbon (python) in R-based workflows to measure the energy consumption of individual snippets of code, scripts, and rendered documents (i.e., Rmd/qmd).
 This work is an extension to the [pilot Green Digital Skills workshop](https://github.com/esciencecenter-digital-skills/green-digital-skills) by the Netherlands eScience center.
 
