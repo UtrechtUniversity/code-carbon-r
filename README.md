@@ -1,2 +1,66 @@
-# code-carbon-r
-Implementation of CodeCarbon (python) in R-based workflows to measure the energy consumption and carbon footprint of individual snippets of code, scripts, and rendered documents (i.e., Rmd/QMD). This work is a contribution to the pilot Green Digital Skills workshop developed by the Netherlands eScience center.
+# Code Carbon in R workflows
+
+This is a demonstration of the implementation of CodeCarbon (python) in R-based workflows to measure the energy consumption of individual snippets of code, scripts, and rendered documents (i.e., Rmd/qmd).
+This work is an extension to the [pilot Green Digital Skills workshop](https://github.com/esciencecenter-digital-skills/green-digital-skills) by the Netherlands eScience center.
+
+## Usage
+
+The suggested use of this repository starts with making sure that R, RStudio, and python are installed in your computer:
+
+### 1. Install R and RStudio
+
+[Install R and RStudio](https://posit.co/download/rstudio-desktop/) on your computer if you haven't done so.
+Note that these demonstrations were conducted under R version 4.4.0 and RStudio 2024.04.0.
+
+### 2. Install Python and CodeCarbon
+
+Detailed instructions are provided [here](https://esciencecenter-digital-skills.github.io/green-digital-skills/modules/software-development-handson/exercises_codecarbon).
+
+### 3. Download the material
+
+There are several ways to download the necessary material:
+
+-  The simplest way is to [download the ZIP file](https://github.com/UtrechtUniversity/code-carbon-r/archive/refs/heads/main.zip), unpack it, and place it in a familiar folder in your computer.
+
+-  Or [clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+-  GitHub desktop is also a good option to copy this repository [by following these instructions](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop).
+
+You should now have all the necessary files in your computer with an identical folder structure (described in the following section).
+
+### 4. Open the project in RStudio
+
+In the main directory, open the file named ***code-carbon-r.Rproj*** in RStudio. This will open RStudio in the default working directory of the project. You can now navigate through the folders on the right-bottom panel of R Studio.
+
+Open the **R** folder. You should now see a file named ***code-carbon-Quarto.qmd*** (markdown document with embedded R and python code). Open this file to follow a demonstration of how to use CodeCarbon in R-based workflows. Individual R scripts are found in the R folder, which are sourced into the main document.
+
+### 5. Re-use the code
+
+There is a sample R script you can reuse and adapt to test your code. Open the file ***code-carbon-script.R*** in the **R** folder. You may download, adapt and re-use this script. 
+
+## Project Structure
+
+The project structure distinguishes three kinds of folders:  
+-  read-only (RO): not edited by either code or researcher  
+-  human-writeable (HW): edited by the researcher only.  
+-  project-generated (PG): folders generated when running the code; these folders can be deleted or emptied and will be completely reconstituted as the project is run.   
+
+```         
+.
+├── .gitignore
+├── CITATION.cff
+├── LICENSE
+├── README.md
+├── code-carbon-r.Rproj
+└── R                    <- Source code for this project (HW)
+```
+
+## Contact 
+
+You can [contact me](mailto:j.mancillagalindo@uu.nl) or post a request in this repository in case you encounter any issues.
+
+## License
+
+This project is licensed under the terms of the [MIT License](/LICENSE).
+
+This project structure repository is adapted from the [Utrecht University simple R project template](https://github.com/UtrechtUniversity/simple-r-project), which builds upon the [Good Enough Project](https://github.com/bvreede/good-enough-project) Cookiecutter template by Barbara Vreede (2019).

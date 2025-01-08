@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Code Carbon in R workflows
+message: >-
+  This is a demonstration of the implementation of Green
+  Code (python) in R-based workflows to measure the energy
+  consumption of individual snippets of code, scripts, and
+  rendered documents (i.e., Rmd/QMD). This work is an
+  extension to the pilot Green Digital Skills workshop by
+  the Netherlands eScience center.
+type: software
+authors:
+  - given-names: Javier
+    family-names: Mancilla Galindo
+    email: j.mancillagalindo@uu.nl
+    affiliation: >-
+      Institute for Risk Assessment Sciences, Utrecht
+      University
+    orcid: 'https://orcid.org/0000-0002-0718-467X'
+repository-code: 'https://github.com/javimangal/green-digital-skills-r'
+repository: >-
+  https://github.com/esciencecenter-digital-skills/green-digital-skills
+keywords:
+  - green coding
+  - code carbon
+  - R
+  - python
+  - Quarto
+license: MIT
