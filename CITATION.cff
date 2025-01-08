@@ -19,9 +19,9 @@ authors:
       Institute for Risk Assessment Sciences, Utrecht
       University
     orcid: 'https://orcid.org/0000-0002-0718-467X'
-repository-code: 'https://github.com/javimangal/green-digital-skills-r'
+repository-code: 'https://github.com/UtrechtUniversity/code-carbon-r'
 repository: >-
-  https://github.com/esciencecenter-digital-skills/green-digital-skills
+  https://github.com/UtrechtUniversity/code-carbon-r
 keywords:
   - green coding
   - code carbon
